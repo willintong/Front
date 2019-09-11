@@ -60,6 +60,9 @@ export class ProductListComponent implements OnInit {
     this.productService.updateProduct(sofkiano).subscribe(products => this.sofkiano = products);
     window.alert('el producto a sido actualizado');
   }
+  cambiar(){
+
+  }
 
   create(products: IProduct) {
     // @ts-ignore

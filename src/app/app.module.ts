@@ -19,6 +19,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { ProductLoginComponent } from './product-login/product-login.component';
 import { ProductHomeComponent } from './product-home/product-home.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { CreateProductComponent } from './create-product/create-product.component';
 
 
 
@@ -28,7 +29,8 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
     ProductListComponent,
     ProductDetailsComponent,
     ProductLoginComponent,
-    ProductHomeComponent
+    ProductHomeComponent,
+    CreateProductComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de producto</title>
+  <img id="imgLogo" width= "300" alt="Angular Logo" src="https://mividaescorrer.com/wp-content/uploads/2016/05/Portadas-5.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<section class="container">
+  <div class="row">
+    <h3 class="center-align">New Product</h3>
+    <article class="col s6 offset-s3">
+      <form method="POST" action="formulario-contacto.php">
+        <div class="input-field">
+          <i class="material-icons prefix">perm_identity</i>
+          <label>Nombre</label>
+          <input type="text" name="nombre" required>
+        </div>
+
+        <div class="input-field">
+          <i class="material-icons prefix">attach_money</i>
+          <label>Precio</label>
+          <input type="text" name="precio" required>
+        </div>
+
+        <div class="input-field">
+          <i class="material-icons prefix">code</i>
+          <label>Descripción</label>
+          <input type="email" name="descripcion" required>
+        </div>
+
+        <div class="input-field">
+          <i class="material-icons prefix">mode_edit</i>
+          <label>Talla</label>
+          <textarea name="talla" id="" rows="10" class="materialize-textarea"  length="140" required></textarea>
+        </div>
+
+        <p class="center-align">
+          <button class="btn btn-outline-primary my-2 my-sm-n1" type="button" style="font-family: Georgia"
+                  routerLink="/products" >CREAR
+          </button>
+        </p>
+
+      </form>
+
+    </article>
+  </div>
+</section>
+
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+</body>
+</html>
