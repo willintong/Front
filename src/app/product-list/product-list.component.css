@@ -1,0 +1,30 @@
+.table-container{
+  width: 457px;
+  padding-right: 80px;
+}
+table, td, th {
+  border: 8px solid #EEEEEE;
+}
+.card{
+  width: 1236px;
+}
+.card-header{
+  line-height: 5px;
+  width: 1227px;
+}
+.card-body{
+  line-height: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 320%;
+  text-anchor: middle;
+}
+
+th {
+  background-color: aquamarine;
+  text-decoration-color: black;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}

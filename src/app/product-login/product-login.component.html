@@ -1,0 +1,86 @@
+<html>
+<head>
+  <link href="https://webassets.mongodb.com/_com_assets/cms/logo_baja-9r83aqmpo0.png" rel="stylesheet">
+
+  <style >
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1 0 auto;
+    }
+
+    body {
+      background: #fff;
+    }
+
+    .input-field input[type=date]:focus + label,
+    .input-field input[type=text]:focus + label,
+    .input-field input[type=email]:focus + label,
+    .input-field input[type=password]:focus + label {
+      color: orange;
+    }
+
+    .input-field input[type=date]:focus,
+    .input-field input[type=text]:focus,
+    .input-field input[type=email]:focus,
+    .input-field input[type=password]:focus {
+      border-bottom: 2px solid orange;
+      box-shadow: orange;
+    }
+  </style>
+</head>
+
+<body>
+<div class="section" ></div>
+<main>
+  <div style="text-align: center; font-family: Georgia">
+    <div class="section"></div>
+    <div class="section"></div>
+
+    <div class="container">
+      <div class="z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+
+        <form class="col s12" method="post">
+          <div class='row'>
+            <div class='col s12'>
+            </div>
+          </div>
+          <div class="input-group-sm hoverable col s6">
+            <i class="material-icons prefix">email</i>
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+          <div class='row'>
+            <div class="input-group-sm hoverable col s6">
+              <i class="material-icons prefix">vpn_key</i>
+              <input id="password" type="password" class="validate">
+              <label for="password">Password</label>
+            </div>
+            <label style='float: right'>
+              <a class='pink-text' href='#!'>Forgot Password?</a>
+            </label>
+          </div>
+
+          <br />
+          <div style="text-align: center;">
+            <div class='row'>
+              <a class="waves-effect waves-light btn right hoverable"><i class="large material-icons">done</i>Login</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="section"></div>
+  <div class="section"></div>
+</main>
+
+
+</body>
+
+</html>
